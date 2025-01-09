@@ -32,7 +32,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 72px;
+    height: 20px;
 }
 
 a {
@@ -73,11 +73,13 @@ a {
 .library {
     background-color: #121212;
     border-radius: 1rem;
-    height: auto;
+    height: calc(100vh - 100px); /* Adjust height to make space for nav and other elements */
     margin-top: 0.5rem;
     padding: 0.5rem 0.75rem;
-    overflow: auto;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling for better UX */
 }
+
 
 .option {
     display: flex;
@@ -232,3 +234,79 @@ a {
         opacity: 1;
     }
 }
+
+/* Search bar styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar i {
+    color: #6c757d;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 14px;
+    margin-right: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar input::placeholder {
+    color: #adb5bd;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results container styling */
+  #lib-search-results {
+    padding: 10px;
+    border: 1px solid #e9ecef;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  #lib-search-results a {
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  #lib-search-results a:hover {
+    background-color: #f1f3f5;
+    border-radius: 4px;
+  }
+  
+  #lib-search-results a:last-child {
+    border-bottom: none;
+  }
+  
+
