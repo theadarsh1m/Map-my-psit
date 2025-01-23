@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const categories = {
         "Main Building": [
-            { name: "AA Block", link: "https://example.com/dean" },
-            { name: "R Block", link: "https://example.com/lecturehallA" },
-            { name: "Admin Block", link: "https://example.com/conference" },
+            { name: "AA Block", link: "https://www.google.com/maps/place/PSIT+AA-Block/@26.4493143,80.1913106,187m/data=!3m1!1e3!4m6!3m5!1s0x399c49f9909915e1:0x6dff33acd8818ecd!8m2!3d26.4493143!4d80.1921527!16s%2Fg%2F11g022tny7?entry=tts&g_ep=EgoyMDI1MDEyMC4wIPu8ASoASAFQAw%3D%3D" },
+            { name: "R Block", link: "https://www.google.com/maps/search/26.449984,+80.193116?coh=219680&entry=tts&g_ep=EgoyMDI1MDEyMS4wIPu8ASoASAFQAw%3D%3D" },
+            { name: "Admin Block", link: "https://www.google.com/maps/search/26.450843,+80.191453?coh=219680&entry=tts&g_ep=EgoyMDI1MDEyMC4wIPu8ASoASAFQAw%3D%3D" },
             { name: "J Block", link: "https://www.google.com/maps/place/J+Block/@26.4510891,80.191887,404m/data=!3m2!1e3!4b1!4m6!3m5!1s0x399c49f96b7a05b3:0xd96a3a400bfc883b!8m2!3d26.4510891!4d80.191887!16s%2Fg%2F11g9gp0h8y?entry=ttu&g_ep=EgoyMDI1MDEwNi4xIKXMDSoASAFQAw%3D%3D" },
             { name: "G Block (Pharmacy)", link: "https://www.google.com/maps/place/PSIT-Pranveer+Singh+Institute+of+Technology+-+Pharmacy/data=!4m7!3m6!1s0x399c4974db6954d7:0x84c002a6e8d27972!8m2!3d26.4503684!4d80.1909626!16s%2Fg%2F11t85_5v04!19sChIJ11Rp23RJnDkRcnnS6KYCwIQ?coh=219680&entry=tts&g_ep=EgoyMDI1MDEwNi4xIPu8ASoASAFQAw%3D%3D" },
             { name: "F Block", link: "https://example.https://www.google.com/maps/place/F-Block+(Mechanical+Engg.)/data=!4m7!3m6!1s0x399c493b4ae2697d:0xb5394e9738b016b2!8m2!3d26.4501596!4d80.1914181!16s%2Fg%2F11qqksvc96!19sChIJfWniSjtJnDkRshawOJdOObU?coh=219680&entry=tts&g_ep=EgoyMDI1MDEwNi4xIPu8ASoASAFQAw%3D%3D/conference" },
